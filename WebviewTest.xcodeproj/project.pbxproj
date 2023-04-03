@@ -14,6 +14,31 @@
 		0F21A2C929C5CB7700B54719 /* WebviewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A2C829C5CB7700B54719 /* WebviewTestTests.swift */; };
 		0F21A2D329C5CB7700B54719 /* WebviewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A2D229C5CB7700B54719 /* WebviewTestUITests.swift */; };
 		0F21A2D529C5CB7700B54719 /* WebviewTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A2D429C5CB7700B54719 /* WebviewTestUITestsLaunchTests.swift */; };
+		0F21A2E529C5CCDF00B54719 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A2E429C5CCDF00B54719 /* WebViewModel.swift */; };
+		0F21A2E729C5CCF800B54719 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A2E629C5CCF800B54719 /* WebView.swift */; };
+		0F21A2F029C5D8EC00B54719 /* UpswingLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A2EF29C5D8EC00B54719 /* UpswingLogger.swift */; };
+		0F21A2F429C622F800B54719 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A2F329C622F800B54719 /* WebViewCoordinator.swift */; };
+		0F21A45629CA30BA00B54719 /* LocalWebApp in Resources */ = {isa = PBXBuildFile; fileRef = 0F21A45529CA30BA00B54719 /* LocalWebApp */; };
+		0F21A45829CA310400B54719 /* UpswingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A45729CA310400B54719 /* UpswingView.swift */; };
+		0F21A45A29CAC6ED00B54719 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A45929CAC6ED00B54719 /* MessageView.swift */; };
+		0F21A45C29CACA3200B54719 /* WebViewJavaScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A45B29CACA3200B54719 /* WebViewJavaScriptMessageHandler.swift */; };
+		0F21A46229CAF8AB00B54719 /* IPublishEventToWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A46129CAF8AB00B54719 /* IPublishEventToWebView.swift */; };
+		0F21A46429CAF8EA00B54719 /* QueueEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A46329CAF8EA00B54719 /* QueueEventType.swift */; };
+		0F21A46629CAFA9400B54719 /* PublishEventToWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A46529CAFA9400B54719 /* PublishEventToWebView.swift */; };
+		0F21A47229CD7A9D00B54719 /* PublishEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A47129CD7A9D00B54719 /* PublishEventHandler.swift */; };
+		0F21A47829CED29A00B54719 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A47729CED29A00B54719 /* KeychainWrapper.swift */; };
+		0F21A47B29CEE9E700B54719 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F21A47A29CEE9E700B54719 /* CryptoSwift */; };
+		0FAB9C5329D4E2C50023DA0F /* SdkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB9C5229D4E2C50023DA0F /* SdkInfo.swift */; };
+		0FAB9C5729D5C5640023DA0F /* CustomerInitiationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB9C5629D5C5640023DA0F /* CustomerInitiationResponse.swift */; };
+		0FAB9C6529D5FD1F0023DA0F /* PartnerInitiateCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB9C6429D5FD1F0023DA0F /* PartnerInitiateCustomer.swift */; };
+		0FAB9C6A29D60A450023DA0F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB9C6929D60A450023DA0F /* Constant.swift */; };
+		0FD4408E29D2EA6200D8082B /* StorageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4408D29D2EA6200D8082B /* StorageConstant.swift */; };
+		0FD4409C29D4091200D8082B /* DeviceSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4409B29D4091200D8082B /* DeviceSpecs.swift */; };
+		0FD4409E29D419AE00D8082B /* JailBreakUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4409D29D419AE00D8082B /* JailBreakUtil.swift */; };
+		0FE48E8029D708B0002F63DD /* UpswingViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE48E7F29D708B0002F63DD /* UpswingViewBuilder.swift */; };
+		0FE48E8E29D71E03002F63DD /* MyPciListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE48E8D29D71E03002F63DD /* MyPciListner.swift */; };
+		0FE48E9029D71E2A002F63DD /* ConfigurePciListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE48E8F29D71E2A002F63DD /* ConfigurePciListner.swift */; };
+		0FE48E9729D8766F002F63DD /* BiometricOrPasscodeAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE48E9629D8766F002F63DD /* BiometricOrPasscodeAuthenticator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +69,30 @@
 		0F21A2CE29C5CB7700B54719 /* WebviewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebviewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F21A2D229C5CB7700B54719 /* WebviewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewTestUITests.swift; sourceTree = "<group>"; };
 		0F21A2D429C5CB7700B54719 /* WebviewTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F21A2E429C5CCDF00B54719 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		0F21A2E629C5CCF800B54719 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0F21A2EF29C5D8EC00B54719 /* UpswingLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpswingLogger.swift; sourceTree = "<group>"; };
+		0F21A2F329C622F800B54719 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		0F21A45529CA30BA00B54719 /* LocalWebApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocalWebApp; path = ../LocalWebApp; sourceTree = "<group>"; };
+		0F21A45729CA310400B54719 /* UpswingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpswingView.swift; sourceTree = "<group>"; };
+		0F21A45929CAC6ED00B54719 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		0F21A45B29CACA3200B54719 /* WebViewJavaScriptMessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewJavaScriptMessageHandler.swift; sourceTree = "<group>"; };
+		0F21A46129CAF8AB00B54719 /* IPublishEventToWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPublishEventToWebView.swift; sourceTree = "<group>"; };
+		0F21A46329CAF8EA00B54719 /* QueueEventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueEventType.swift; sourceTree = "<group>"; };
+		0F21A46529CAFA9400B54719 /* PublishEventToWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishEventToWebView.swift; sourceTree = "<group>"; };
+		0F21A47129CD7A9D00B54719 /* PublishEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishEventHandler.swift; sourceTree = "<group>"; };
+		0F21A47729CED29A00B54719 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		0FAB9C5229D4E2C50023DA0F /* SdkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkInfo.swift; sourceTree = "<group>"; };
+		0FAB9C5629D5C5640023DA0F /* CustomerInitiationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInitiationResponse.swift; sourceTree = "<group>"; };
+		0FAB9C6429D5FD1F0023DA0F /* PartnerInitiateCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerInitiateCustomer.swift; sourceTree = "<group>"; };
+		0FAB9C6929D60A450023DA0F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0FD4408D29D2EA6200D8082B /* StorageConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageConstant.swift; sourceTree = "<group>"; };
+		0FD4409B29D4091200D8082B /* DeviceSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSpecs.swift; sourceTree = "<group>"; };
+		0FD4409D29D419AE00D8082B /* JailBreakUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailBreakUtil.swift; sourceTree = "<group>"; };
+		0FE48E7F29D708B0002F63DD /* UpswingViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpswingViewBuilder.swift; sourceTree = "<group>"; };
+		0FE48E8D29D71E03002F63DD /* MyPciListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPciListner.swift; sourceTree = "<group>"; };
+		0FE48E8F29D71E2A002F63DD /* ConfigurePciListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurePciListner.swift; sourceTree = "<group>"; };
+		0FE48E9629D8766F002F63DD /* BiometricOrPasscodeAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricOrPasscodeAuthenticator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F21A47B29CEE9E700B54719 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +124,7 @@
 		0F21A2AB29C5CB7600B54719 = {
 			isa = PBXGroup;
 			children = (
+				0F21A45529CA30BA00B54719 /* LocalWebApp */,
 				0F21A2B629C5CB7600B54719 /* WebviewTest */,
 				0F21A2C729C5CB7700B54719 /* WebviewTestTests */,
 				0F21A2D129C5CB7700B54719 /* WebviewTestUITests */,
@@ -94,8 +145,8 @@
 		0F21A2B629C5CB7600B54719 /* WebviewTest */ = {
 			isa = PBXGroup;
 			children = (
-				0F21A2B729C5CB7600B54719 /* WebviewTestApp.swift */,
-				0F21A2B929C5CB7600B54719 /* ContentView.swift */,
+				0FAB9C6629D5FDE30023DA0F /* AppCode */,
+				0FAB9C6229D5FCA60023DA0F /* SdkCode */,
 				0F21A2BB29C5CB7700B54719 /* Assets.xcassets */,
 				0F21A2BD29C5CB7700B54719 /* Preview Content */,
 			);
@@ -127,6 +178,133 @@
 			path = WebviewTestUITests;
 			sourceTree = "<group>";
 		};
+		0F21A2E129C5CCAE00B54719 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F21A2E229C5CCB600B54719 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A2E429C5CCDF00B54719 /* WebViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F21A2E329C5CCC700B54719 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A2F229C622DD00B54719 /* WebViewCore */,
+				0F21A45729CA310400B54719 /* UpswingView.swift */,
+				0F21A45929CAC6ED00B54719 /* MessageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F21A2EE29C5D8BC00B54719 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A2EF29C5D8EC00B54719 /* UpswingLogger.swift */,
+				0FD4409B29D4091200D8082B /* DeviceSpecs.swift */,
+				0FD4409D29D419AE00D8082B /* JailBreakUtil.swift */,
+				0FAB9C5229D4E2C50023DA0F /* SdkInfo.swift */,
+				0FAB9C6929D60A450023DA0F /* Constant.swift */,
+				0FE48E8F29D71E2A002F63DD /* ConfigurePciListner.swift */,
+				0FE48E9629D8766F002F63DD /* BiometricOrPasscodeAuthenticator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0F21A2F229C622DD00B54719 /* WebViewCore */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB9C6729D5FE370023DA0F /* JsInterface */,
+				0F21A46029CAF86000B54719 /* JsEventPublisher */,
+				0F21A2F329C622F800B54719 /* WebViewCoordinator.swift */,
+				0F21A2E629C5CCF800B54719 /* WebView.swift */,
+			);
+			path = WebViewCore;
+			sourceTree = "<group>";
+		};
+		0F21A46029CAF86000B54719 /* JsEventPublisher */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A46129CAF8AB00B54719 /* IPublishEventToWebView.swift */,
+				0F21A46329CAF8EA00B54719 /* QueueEventType.swift */,
+				0F21A46529CAFA9400B54719 /* PublishEventToWebView.swift */,
+				0F21A47129CD7A9D00B54719 /* PublishEventHandler.swift */,
+			);
+			path = JsEventPublisher;
+			sourceTree = "<group>";
+		};
+		0F21A47529CED23600B54719 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A47629CED24100B54719 /* LocalStorage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0F21A47629CED24100B54719 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A47729CED29A00B54719 /* KeychainWrapper.swift */,
+				0FD4408D29D2EA6200D8082B /* StorageConstant.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		0FAB9C5529D5C4CE0023DA0F /* Partner */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB9C5629D5C5640023DA0F /* CustomerInitiationResponse.swift */,
+				0FE48E7F29D708B0002F63DD /* UpswingViewBuilder.swift */,
+			);
+			path = Partner;
+			sourceTree = "<group>";
+		};
+		0FAB9C6229D5FCA60023DA0F /* SdkCode */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A47529CED23600B54719 /* Data */,
+				0F21A2E129C5CCAE00B54719 /* Model */,
+				0F21A2E329C5CCC700B54719 /* View */,
+				0F21A2E229C5CCB600B54719 /* ViewModel */,
+				0F21A2EE29C5D8BC00B54719 /* Util */,
+				0FAB9C5529D5C4CE0023DA0F /* Partner */,
+			);
+			path = SdkCode;
+			sourceTree = "<group>";
+		};
+		0FAB9C6329D5FD000023DA0F /* Partner */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB9C6429D5FD1F0023DA0F /* PartnerInitiateCustomer.swift */,
+				0FE48E8D29D71E03002F63DD /* MyPciListner.swift */,
+			);
+			path = Partner;
+			sourceTree = "<group>";
+		};
+		0FAB9C6629D5FDE30023DA0F /* AppCode */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A2B929C5CB7600B54719 /* ContentView.swift */,
+				0F21A2B729C5CB7600B54719 /* WebviewTestApp.swift */,
+				0FAB9C6329D5FD000023DA0F /* Partner */,
+			);
+			path = AppCode;
+			sourceTree = "<group>";
+		};
+		0FAB9C6729D5FE370023DA0F /* JsInterface */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A45B29CACA3200B54719 /* WebViewJavaScriptMessageHandler.swift */,
+			);
+			path = JsInterface;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +321,9 @@
 			dependencies = (
 			);
 			name = WebviewTest;
+			packageProductDependencies = (
+				0F21A47A29CEE9E700B54719 /* CryptoSwift */,
+			);
 			productName = WebviewTest;
 			productReference = 0F21A2B429C5CB7600B54719 /* WebviewTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +396,10 @@
 				Base,
 			);
 			mainGroup = 0F21A2AB29C5CB7600B54719;
+			packageReferences = (
+				0F21A30029C87E1D00B54719 /* XCRemoteSwiftPackageReference "MyTestLib" */,
+				0F21A47929CEE9E700B54719 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 0F21A2B529C5CB7600B54719 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F21A2BF29C5CB7700B54719 /* Preview Assets.xcassets in Resources */,
+				0F21A45629CA30BA00B54719 /* LocalWebApp in Resources */,
 				0F21A2BC29C5CB7700B54719 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +443,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE48E9729D8766F002F63DD /* BiometricOrPasscodeAuthenticator.swift in Sources */,
+				0FAB9C5329D4E2C50023DA0F /* SdkInfo.swift in Sources */,
 				0F21A2BA29C5CB7600B54719 /* ContentView.swift in Sources */,
+				0F21A47229CD7A9D00B54719 /* PublishEventHandler.swift in Sources */,
+				0F21A2E729C5CCF800B54719 /* WebView.swift in Sources */,
+				0F21A47829CED29A00B54719 /* KeychainWrapper.swift in Sources */,
+				0FD4409E29D419AE00D8082B /* JailBreakUtil.swift in Sources */,
+				0FD4408E29D2EA6200D8082B /* StorageConstant.swift in Sources */,
+				0F21A46429CAF8EA00B54719 /* QueueEventType.swift in Sources */,
+				0FAB9C5729D5C5640023DA0F /* CustomerInitiationResponse.swift in Sources */,
 				0F21A2B829C5CB7600B54719 /* WebviewTestApp.swift in Sources */,
+				0F21A46229CAF8AB00B54719 /* IPublishEventToWebView.swift in Sources */,
+				0F21A2F029C5D8EC00B54719 /* UpswingLogger.swift in Sources */,
+				0F21A45A29CAC6ED00B54719 /* MessageView.swift in Sources */,
+				0FD4409C29D4091200D8082B /* DeviceSpecs.swift in Sources */,
+				0FE48E8029D708B0002F63DD /* UpswingViewBuilder.swift in Sources */,
+				0FAB9C6A29D60A450023DA0F /* Constant.swift in Sources */,
+				0F21A46629CAFA9400B54719 /* PublishEventToWebView.swift in Sources */,
+				0FE48E8E29D71E03002F63DD /* MyPciListner.swift in Sources */,
+				0F21A2F429C622F800B54719 /* WebViewCoordinator.swift in Sources */,
+				0FE48E9029D71E2A002F63DD /* ConfigurePciListner.swift in Sources */,
+				0F21A45C29CACA3200B54719 /* WebViewJavaScriptMessageHandler.swift in Sources */,
+				0FAB9C6529D5FD1F0023DA0F /* PartnerInitiateCustomer.swift in Sources */,
+				0F21A45829CA310400B54719 /* UpswingView.swift in Sources */,
+				0F21A2E529C5CCDF00B54719 /* WebViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,10 +554,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -399,6 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -419,6 +631,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WebviewTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebviewTest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to authenticate with the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,7 +642,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Upswing.WebviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -447,6 +661,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WebviewTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebviewTest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to authenticate with the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,7 +672,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Upswing.WebviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -577,6 +793,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F21A30029C87E1D00B54719 /* XCRemoteSwiftPackageReference "MyTestLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NitinPraksash9911/MyTestLib";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+		0F21A47929CEE9E700B54719 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F21A47A29CEE9E700B54719 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F21A47929CEE9E700B54719 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0F21A2AC29C5CB7600B54719 /* Project object */;
 }

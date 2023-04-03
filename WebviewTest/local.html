@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Button Example</title>
+  </head>
+  <body>
+    <h1>Button Example</h1>
+<button class="my-button" onclick="sendMessage1()">Send Message 1</button>
+<button class="my-button" onclick="sendMessage2()">Send Message 2</button>
+<button class="my-button" onclick="sendMessage3()">Send Message 3</button>
+<button class="my-button" onclick="sendMessage4()">Send Message 4</button>
+<button class="my-button" onclick="sendMessage5()">Send Message 5</button>
+<style>
+    .my-button {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+</style>
+    
+    <script>
+      function sendMessage1() {
+        if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.iosBridge) {
+          window.webkit.messageHandlers.iosBridge.postMessage({
+            "functionName": "message1",
+            "message": "Hello from message 1!"
+          });
+        }
+      }
+      
+      function sendMessage2() {
+        if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.iosBridge) {
+          window.webkit.messageHandlers.iosBridge.postMessage({
+            "functionName": "message2",
+            "message": "Hello from message 2!"
+          });
+        }
+      }
+      
+      function sendMessage3() {
+        if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.iosBridge) {
+          window.webkit.messageHandlers.iosBridge.postMessage({
+            "functionName": "message3",
+            "message": "Hello from message 3!"
+          });
+        }
+      }
+
+function sendMessage4() {
+  if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.iosBridge) {
+    window.webkit.messageHandlers.iosBridge.postMessage({
+      "functionName": "message4",
+      "message": 1212,
+      "anotherParam": "hello ji kaha ho"
+    });
+  }
+}
+
+function sendMessage5() {
+  if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.iosBridge) {
+    window.webkit.messageHandlers.iosBridge.postMessage({
+      "functionName": "message5",
+      "message": true
+    });
+  }
+}
+    </script>
+  </body>
+</html>
